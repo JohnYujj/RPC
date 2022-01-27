@@ -1,6 +1,6 @@
 S_ProjectSET
 Version : v 0.14.9
-InputMap : C:\Users\johny\Documents\StarCraft\Maps\RandomPeenyControlv0.9.scx
+InputMap : C:\Users\johny\Documents\GitHub\RPC\RandomPeenyControlv0.9.scx
 OutputMap : C:\Users\johny\Documents\StarCraft\Maps\RandomPeenyControlLatest.scx
 euddraftuse : True
 loadfromCHK : True
@@ -98,9 +98,9 @@ S_DatEditSET
 1,6,34,-52
 1,6,60,-49
 1,6,84,-47
-1,11,54,60
-1,12,54,40
-1,13,54,20
+1,11,54,80
+1,12,54,60
+1,13,54,40
 1,15,34,35
 1,15,60,45
 1,15,84,1
