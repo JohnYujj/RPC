@@ -1,5 +1,5 @@
 S_ProjectSET
-Version : v 0.14.9
+Version : 0.18.1.7
 InputMap : C:\Users\johny\Documents\GitHub\RPC\RandomPeenyControlv0.9.5.scx
 OutputMap : C:\Users\johny\Documents\GitHub\RPC\RandomPeenyControlLatest.scx
 euddraftuse : True
@@ -14,6 +14,7 @@ UsedSetting6 : True
 UsedSetting7 : True
 UsedSetting8 : True
 EUDEditorDebug : False
+epTraceDebug : False
 triggerSetTouse : True
 triggerPlayer : 7
 E_ProjectSET
@@ -26,6 +27,35 @@ S_DatEditSET
 0,22,162,-524288
 0,22,166,-524288
 0,23,162,5
+0,51,0,-2
+0,51,1,-2
+0,51,2,-4
+0,51,3,-4
+0,51,5,-4
+0,51,8,-4
+0,51,9,-4
+0,51,12,-12
+0,51,30,-4
+0,51,32,-2
+0,51,34,-2
+0,51,37,-1
+0,51,38,-2
+0,51,39,-8
+0,51,43,-4
+0,51,44,-4
+0,51,46,-4
+0,51,50,-2
+0,51,61,-4
+0,51,63,-8
+0,51,65,-4
+0,51,66,-4
+0,51,67,-4
+0,51,68,-8
+0,51,70,-6
+0,51,72,-12
+0,51,74,-2
+0,51,83,-8
+0,51,103,-4
 0,54,0,100
 0,54,1,25
 0,54,2,125
@@ -265,33 +295,56 @@ ProjectTileSetDataCount : 0
 ProjectMTXMDATACount : 24576
 ProjectMTXMDATAArray : 
 E_TileSET
+S_SCDBSet
+SCDBDeath : 0
+SCDBLoc : 0
+SCDBVariable : 0
+SCDBLocLoad : 0
+SCDBUse : False
+SCDBSerial : 0
+SCDBMaker : 0
+SCDBMapName : 0
+SCDBDataSize : 0
+E_SCDBSet
 S_FileManagerSET
+statlang : 0
 stattextdicCount : 0
 wireuse : True
 E_FileManagerSET
 S_TriggerEditorSET
+&AddText&
+Type:23,False,False,False
+
+ElementsCount:0
+END
+
 &functions&
-Type:15
+Type:15,False,False,False
 ElementsCount:0
 END
 
 &GlobalVar&
-Type:0
+Type:0,False,False,False
+ElementsCount:0
+END
+
+&RawTriggers&
+Type:25,False,False,False
 ElementsCount:0
 END
 
 &onPluginStart&
-Type:0
+Type:0,False,False,False
 ElementsCount:0
 END
 
 &beforeTriggerExec&
-Type:0
+Type:0,False,False,False
 ElementsCount:0
 END
 
 &afterTriggerExec&
-Type:0
+Type:0,False,False,False
 ElementsCount:0
 END
 
